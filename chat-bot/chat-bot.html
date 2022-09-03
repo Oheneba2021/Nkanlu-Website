@@ -1,0 +1,20 @@
+<script>
+var botmanWidget = {
+	title: "NativeTemple Chat Robot",
+	chatServer: 'https://api.nativetemple.net/api/chat-bot/server',
+	frameEndpoint: './chat-bot/frame.html',
+	mainColor: '#fe025d',
+	bubbleAvatarUrl: 'https://nativetemple.net/images/chat-bot-bubble.png',
+	aboutLink: 'https://nativetemple.net',
+	aboutText: '⚡ by NativeTemple',
+	introMessage: `
+	<p>Hello, I am a robot and I am here to assist you.</p>
+	<p style='margin-top:10px;'>Anytime you need help, say 'hello' to start a conversation with me.</p>
+	`
+};
+</script>
+<script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
+<script>
+	window.onload = () => setTimeout(() => botmanChatWidget.open(), 5e3);
+</script>
+
