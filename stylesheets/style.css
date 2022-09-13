@@ -2669,3 +2669,10 @@ blockquote {
     opacity:0.1
   }
 }
+.newwidth{
+    width:200px;
+    height:50px !important;
+}
+.box-content{
+    color:rgba(255, 255, 255, 0.5)    ;
+}
