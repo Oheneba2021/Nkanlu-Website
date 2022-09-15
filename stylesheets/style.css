@@ -2675,7 +2675,23 @@ blockquote {
 }
 .box-content{
     color:rgba(255, 255, 255, 0.5)    ;
+ 
 }
-.fa{
+.fa-cog{
     color:#000036 !important;
+}
+.issop{
+    display:flex;
+    justify-content: center;
+    margin: 80px;
+}
+.vismis{
+    background-color: #000036;
+    width:500px;
+    height: 215px;
+    color: white;
+    margin: 30px;
+    text-align: center;
+    padding:50px;
+
 }
